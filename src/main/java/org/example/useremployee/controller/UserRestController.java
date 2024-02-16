@@ -4,6 +4,7 @@ import org.example.useremployee.model.User;
 import org.example.useremployee.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -17,4 +18,8 @@ public class UserRestController {
     public List<User> getUsers() {
         return userRepository.findAll();
     };
+
+
 }
+
+

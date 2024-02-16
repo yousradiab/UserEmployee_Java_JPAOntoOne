@@ -17,26 +17,32 @@ public class User {
     private Employee employee;
 
     public Employee getEmployee() {
+
         return employee;
     }
 
     public void setEmployee(Employee employee) {
+
         this.employee = employee;
     }
 
     public int getUserID() {
+
         return UserID;
     }
 
     public void setUserID(int userID) {
+
         UserID = userID;
     }
 
     public String getEmail() {
+
         return email;
     }
 
     public void setEmail(String email) {
+
         this.email = email;
     }
 
